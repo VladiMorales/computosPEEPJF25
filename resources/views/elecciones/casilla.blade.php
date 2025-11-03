@@ -25,15 +25,12 @@
 
             <br>
             <label for="opciones">Tipo de Casilla</label>
-            <select id="tipo"  class="opciones" required>                
+            <select id="tipo"  class="opciones" onchange="tipoC()" required>                
             </select>
 
             <br>
             <label for="opciones">Grupo</label>
-            <select id="grupo" class="opciones" required>  
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>    
+            <select id="grupo" class="opciones" required>                
             </select>
 
             <br>
