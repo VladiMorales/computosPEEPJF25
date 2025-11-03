@@ -31,9 +31,9 @@
             <br>
             <label for="opciones">Grupo</label>
             <select id="grupo" class="opciones" required>  
-                <option value="">1</option>
-                <option value="">2</option>
-                <option value="">3</option>    
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>    
             </select>
 
             <br>
