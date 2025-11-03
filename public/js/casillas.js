@@ -1,7 +1,6 @@
 function seccionS(seccion){
     var seccion=seccion;
-    var selectTipo = document.getElementById('tipo');
-    var inGrupo = document.getElementById('grupo');
+    var selectTipo = document.getElementById('tipo');    
     var opciones=[];
 
     inGrupo.innerHTML = '';
