@@ -1,0 +1,81 @@
+:root {
+    --primario: #ffffff;
+    --TDJ: #81C7BE;
+    --MC: #C08BA4;
+    --SCJN: #8580BC;
+    --JD: #FEE365;
+    --SS: #377E9C;
+    --SR: #FAC6B8;
+    --oscuro: #000000;
+}
+html {
+    font-size: 62.5%;
+    box-sizing: border-box; /* Hack para Box Model **/
+    scroll-snap-type: y mandatory;
+}
+body {
+    font-size: 16px; /* 1rem = 10px */
+    font-family: 'Krub', sans-serif;
+    padding: 5rem;
+}
+/* Tipografia */
+h1 {
+    font-size: 2.9rem;
+}
+h2 {
+    font-size: 2.2rem;
+}
+h3 {
+    font-size: 1.5rem;
+}
+h1,h2,h3 {
+    text-align: center;
+}
+  
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+  
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #f9f9f9;
+    font-size: 16px;
+    transition: border-color 0.3s;
+} 
+select:focus {
+    border-color: #000000;
+    outline: none;
+}
+.opciones {
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+}
+.boton:hover {
+    cursor: pointer;
+}
+.boton { /* especificaicones del boton */
+    background-color: #431D6E; 
+    color: white;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: .5rem;
+}
+ .container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: var(--primario);
+    padding: 2.5rem;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px #431d6eae;
+}
+

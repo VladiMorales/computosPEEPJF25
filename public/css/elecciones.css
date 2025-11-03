@@ -1,0 +1,126 @@
+:root {
+    --primario: #ffffff;
+    --TDJ: #81C7BE;
+    --MC: #C08BA4;
+    --SCJN: #8580BC;
+    --JD: #FEE365;
+    --SS: #377E9C;
+    --SR: #FAC6B8;
+    --oscuro: #000000;
+}
+html {
+    font-size: 62.5%;
+    box-sizing: border-box; /* Hack para Box Model **/
+    scroll-snap-type: y mandatory;
+}
+body {
+    font-size: 16px; /* 1rem = 10px */
+    font-family: 'Krub', sans-serif;
+    background-image: linear-gradient(to top, var(--grisClaro) 0%, var(--blanco) 100% );
+}
+/* Tipografia */
+h1 {
+    font-size: 2.9rem;
+}
+h2 {
+    font-size: 2.2rem;
+}
+h3 {
+    font-size: 1.5rem;
+}
+h1,h2,h3 {
+    text-align: center;
+}
+.footer {
+    text-align: center;
+}
+.containerEle {
+    max-width: 60rem;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-radius: 35px;
+    box-shadow: 0 30px 30px rgba(216, 29, 222, 0.544);
+    }
+h2 {
+    text-align: center;
+    color: #000000;
+}
+.form-group {
+    margin-bottom: 10px;
+}
+.form-group label {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+.form-group input {
+    padding: 1rem 2rem;
+    margin-top: .5rem;
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 1rem;
+    width: 90%;
+    text-align: center;
+    border: none;
+}
+
+.form-group input[type="submit"] {
+    background-color: #21c526;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    border: none;
+    width: 60%;
+    font-weight: bold;
+}
+.form-group input[type="submit"]:hover {
+    background-color: #21c527a5;
+}
+.form-group .scjn input{
+    background-color: var(--SCJN);
+    color: rgb(0, 0, 0);
+}
+.form-group .tdj input{
+    background-color: var(--TDJ);
+    color: rgb(0, 0, 0);
+}
+.form-group .ss input{
+    background-color: var(--SS);
+    color: rgb(0, 0, 0);
+}
+.form-group .sr input{
+    background-color: var(--SR);
+    color: rgb(0, 0, 0);
+}
+.form-group .mc input{
+    background-color: var(--MC);
+    color: rgb(0, 0, 0);
+}
+.form-group .jd input{
+    background-color: var(--JD);
+    color: rgb(15, 1, 1);
+}
+.form-group .jd input[type="submit"]:hover {
+    background-color: #fee265ad;
+}
+.form-group .scjn input[type="submit"]:hover {
+    background-color: #8580bcc6;
+}
+.form-group .tdj input[type="submit"]:hover {
+    background-color: #81c7becd;
+}
+.form-group .ss input[type="submit"]:hover {
+    background-color: #377e9cbc;
+}
+.form-group .sr input[type="submit"]:hover {
+    background-color: #fac6b8a7;
+}
+.form-group .mc input[type="submit"]:hover {
+    background-color: #c08ba4a9;
+}
+.username {
+    font-weight: bold;
+    text-transform: uppercase;
+}
