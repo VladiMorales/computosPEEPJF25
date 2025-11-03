@@ -1,10 +1,10 @@
 function seccionS(seccion){
     var seccion=seccion;
     var selectTipo = document.getElementById('tipo');
-    var inGrupo = document.getElementById('grupo');
+    //var inGrupo = document.getElementById('grupo');
     var opciones=[];
 
-    inGrupo.innerHTML = '';
+    //inGrupo.innerHTML = '';
     selectTipo.innerHTML = '';
     if(seccion==163 || seccion==164 || seccion==184 || seccion==536 || seccion==2354){
         opciones = [
