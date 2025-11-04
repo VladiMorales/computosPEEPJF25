@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class JD extends Model
 {
     //
-    protected $table = 'JD';
+    protected $table = 'jd';
     protected $fillable = [
         'V1',
         'V2',
