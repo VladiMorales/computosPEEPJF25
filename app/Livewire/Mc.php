@@ -4,7 +4,7 @@ namespace App\Livewire;
 
 use App\Models\Casilla;
 use App\Models\Error;
-use App\Models\Mc as ModelsMc;
+use App\Models\MC as ModelsMc;
 use App\Models\RNU;
 use Illuminate\Support\Facades\Auth;
 use Livewire\Component;
